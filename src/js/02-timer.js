@@ -69,10 +69,3 @@ function updateInterface() {
 function pad(value) {
     return String(value).padStart(2, '0');
 }
-fetch("https://jsonplaceholder.typicode.co/users").then(responce => {
-  if (!responce.ok) {
-    throw new Error(responce.status)
-  }
-  console.log(responce.json)
-  return responce.json
-})

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/search.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        id="search"
+        placeholder="Search images..."
+      />
+      <button class="icon" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+    <div class="gallery">
+      <!-- Картки зображень -->
+    </div>
+    <button type="button" class="load-more">load more</button>
+    <script src="./js/search.js" type="module"></script>
+  </body>
+</html>
